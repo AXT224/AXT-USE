@@ -1,6 +1,6 @@
   <div align="center">
 
-# OpenMuse
+# AXT USE
 
 **A personal agent with a browser, terminal, files, and work that keeps going. Compatible with any agent harness.**
 
