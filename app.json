@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "ef2646f9-2639-4c5e-bff0-86348bee6abc"
+      }
+    },
+    "android": {
+      "package": "com.axt224.axtmuse"
+    }
+  }
+}
