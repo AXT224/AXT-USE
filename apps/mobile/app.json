@@ -7,13 +7,33 @@
     "orientation": "default",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "ios": { "supportsTablet": true, "bundleIdentifier": "app.openmuse.mobile" },
-    "android": { "package": "app.openmuse.mobile" },
-    "web": { "bundler": "metro", "name": "OpenMuse — a little room for everything" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.openmuse.mobile"
+    },
+    "android": {
+      "package": "app.openmuse.mobile",
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "OpenMuse — a little room for everything"
+    },
     "plugins": [
       "expo-document-picker",
       "@config-plugins/react-native-blob-util",
       "@config-plugins/react-native-pdf"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ef2646f9-2639-4c5e-bff0-86348bee6abc"
+      }
+    },
+    "owner": "axt-224"
   }
 }
